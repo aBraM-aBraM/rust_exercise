@@ -19,6 +19,10 @@ path = "health_monitor/main.rs"
 name = "polygon"
 path = "polygon/main.rs"
 
+[[bin]]
+name = "luhn"
+path = "luhn/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
