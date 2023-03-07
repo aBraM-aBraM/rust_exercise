@@ -11,6 +11,10 @@ path = "matrix/main.rs"
 name = "library"
 path = "library/library.rs"
 
+[[bin]]
+name = "health_monitor"
+path = "health_monitor/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
