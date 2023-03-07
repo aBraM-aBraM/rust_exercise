@@ -14,7 +14,6 @@ pub fn luhn(cc_number: &str) -> bool {
             value += value / 10;
             sum += value;
         }
-        println!("sum = {sum}");
         return sum % 10 == 0;
     }
     return false;

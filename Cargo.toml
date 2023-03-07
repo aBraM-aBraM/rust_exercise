@@ -5,23 +5,23 @@ edition = "2021"
 
 [[bin]]
 name = "matrix"
-path = "matrix/main.rs"
+path = "src/matrix.rs"
 
 [[bin]]
 name = "library"
-path = "library/library.rs"
+path = "src/library.rs"
 
 [[bin]]
 name = "health_monitor"
-path = "health_monitor/main.rs"
+path = "src/health_monitor.rs"
 
 [[bin]]
 name = "polygon"
-path = "polygon/main.rs"
+path = "src/polygon.rs"
 
 [[bin]]
 name = "luhn"
-path = "luhn/main.rs"
+path = "src/luhn.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
